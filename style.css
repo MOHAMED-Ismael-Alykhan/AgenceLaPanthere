@@ -656,6 +656,10 @@ a {
   /*color: #575757;*/
 }
 
+.text-center-white {
+  color: #000000;
+  text-align: center;
+}
 .container {
   max-width: 1000px;
 }
@@ -786,7 +790,7 @@ h4 {
 }
 
 .tc-white-accueil {
-  color: #f3976c;
+  color: #ffffff;
 }
 
 .btn-atomic-tangerine {
