@@ -2,11 +2,18 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
+
+    <title>Formulaire de contact et coordonnées de l'agence La Panthère</title>
+
+    <meta name="robots" content="index,follow" />
+
     <meta name="keywords" content="" />
+
     <meta
       name="description"
       content="Pour contacter notre équipe d'experts web design sur la réalisation de votre projet, vous pouvez remplir le formulaire ou nous retrouver sur les réseaux sociaux."
     />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -22,14 +29,12 @@
       rel="canonical"
       href="https://mohamed-ismael-alykhan.github.io/AgenceLaPanthere/contact.html"
     />
-    <code><meta name="robots" content="index,follow" /></code>
 
     <script src="./js/jquery-2.1.0.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
     <script src="./js/jqBootstrapValidation.js"></script>
     <script src="./js/formHandler.js"></script>
-    <title>Formulaire de contact et coordonnées de l'agence La Panthère</title>
 
     <!-- Analytics -->
 
@@ -111,49 +116,56 @@
               <form
                 id="form_1"
                 novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+                data-success-msg="Your message has been sent."
+                data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
-                  <input
-                    id="name"
-                    class="form-control"
-                    title="Entrez votre nom"
-                    required
-                  />
+                  <label>
+                    Nom
+                    <input
+                      id="name"
+                      class="form-control"
+                      title="Entrez votre nom"
+                      required
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
-                  <input
-                    id="email"
-                    class="form-control"
-                    type="email"
-                    title="Entrez votre email"
-                    required
-                  />
+                  <label>
+                    Adresse email
+                    <input
+                      id="email"
+                      class="form-control"
+                      type="email"
+                      title="Entrez votre email"
+                      required
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
-                  <input
-                    class="form-control"
-                    title="Comment nous avez-vous connu?"
-                    required
-                    id="input_504"
-                  />
+                  <label>
+                    Comment nous avez-vous connu ?
+                    <input
+                      class="form-control"
+                      title="Comment nous avez-vous connu?"
+                      required
+                      id="input_504"
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
                   <label>
                     Brief de votre projet (Ajoutez autant de détails que
-                    nécessaire)<br /> </label
-                  ><textarea
-                    id="message"
-                    class="form-control"
-                    rows="4"
-                    cols="50"
-                    title="Décrivez nous en détails votre projet"
-                    required
-                  ></textarea>
+                    nécessaire)<br />
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="4"
+                      cols="50"
+                      title="Décrivez nous en détails votre projet"
+                      required
+                    ></textarea>
+                  </label>
                 </div>
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
@@ -192,28 +204,40 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Lien vers Twitter"
+                      href="https://twitter.com/?lang=fr"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Lien vers facebook"
+                      href="https://fr-fr.facebook.com"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Lien vers Dribbble"
+                      href="https://dribbble.com"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Lien vers Instagram"
+                      href="https://www.instagram.com/?hl=fr"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
