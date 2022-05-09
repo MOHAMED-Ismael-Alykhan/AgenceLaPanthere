@@ -1418,7 +1418,8 @@ a {
 
 a:focus,
 a:hover {
-  color: #23527c;
+  /*color: #23527c;*/
+  color: #f3976c;
   text-decoration: underline;
 }
 
