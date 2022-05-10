@@ -1424,6 +1424,7 @@ a:hover {
 }
 
 a:focus {
+  color: rgb(0, 217, 255);
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -1446,7 +1447,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .img-rounded {
   border-radius: 6px;
 }
