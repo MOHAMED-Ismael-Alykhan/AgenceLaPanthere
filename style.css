@@ -819,20 +819,18 @@ h4 {
   border-color: #364577;
 }
 
-.bg-dots-bg {
-  background-image: url("img/dots-bg.png");
-}
+@media (min-width: 768px) {
+  .bg-dots-bg {
+    background-image: url("img/dots-bg.png");
+  }
 
-/*.bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
-}*/
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere.jpg");
+  }
 
-.bg-banniere {
-  background-image: url("img/agence-la-panthere.jpg");
-}
-
-.bg-presentation {
-  background-image: url("img/image-de-presentation.jpg");
+  .bg-presentation {
+    background-image: url("img/image-de-presentation.jpg");
+  }
 }
 
 @media (max-width: 1024px) {
